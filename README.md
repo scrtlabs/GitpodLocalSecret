@@ -6,7 +6,7 @@
 
 Can't run your local secret environment because you're on M1, or too lazy to install docker? We got your back!
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/scrtlabs/GitpodDevEnv)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/scrtlabs/GitpodLocalSecret)
 
 This will create an environment that automatically starts localsecret, and exposes the ports for application development. To connect,
 prepend the port number with the gitpod url. e.g. if my workspace is at `https://scrtlabs-gitpoddevenv-shqyv12iyrv.ws-eu54.gitpod.io` then I would be able
