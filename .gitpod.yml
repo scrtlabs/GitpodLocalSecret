@@ -1,7 +1,7 @@
 image: ghcr.io/scrtlabs/localsecret-gitpod:latest
 
 tasks:
-  - name: Start Faucet
+  - name: Faucet
     command: |
       node /home/gitpod/faucet_server.js
   - name: LocalSecret
