@@ -1,11 +1,14 @@
 image: ghcr.io/scrtlabs/localsecret-gitpod:latest
 
 tasks:
-  - command: |
+  - name: Start Faucet
+    command: |
       node /home/gitpod/faucet_server.js
-  - command: |
+  - name: LocalSecret
+    command: |
       cd /home/gitpod/ && SCRT_SGX_STORAGE=/opt/secret/.sgx_secrets /home/gitpod/bootstrap_init.sh false
-  - command: |
+  - name: Terminal
+    command: |
       echo "Hello and welcome to the Secret Network"
       
 jetbrains:
