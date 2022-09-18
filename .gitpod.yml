@@ -21,12 +21,16 @@ jetbrains:
 ports:
   - port: 26657
     onOpen: ignore
+    visibility: public
   - port: 9090-9091
     onOpen: ignore
+    visibility: public
   - port: 5000
     onOpen: ignore
+    visibility: public
   - port: 1317
     onOpen: ignore
+    visibility: public
   - port: 3000
     onOpen: ignore
   - port: 24000
