@@ -22,7 +22,10 @@ ports:
   - port: 26657
     onOpen: ignore
     visibility: public
-  - port: 9090-9091
+  - port: 9091
+    onOpen: ignore
+    visibility: public
+  - port: 9090
     onOpen: ignore
     visibility: public
   - port: 5000
