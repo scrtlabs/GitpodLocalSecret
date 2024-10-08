@@ -1,4 +1,4 @@
-image: ghcr.io/scrtlabs/localsecret-gitpod:v1.14
+image: ghcr.io/scrtlabs/localsecret-gitpod:v1.14.1
 
 tasks:
   - name: Faucet
